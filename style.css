@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+
+    padding: 0px;
+
+    font-family: "Futura", sans-serif;
+
+    font-size: 1vw;
+
+}
+
+
+body {
+    background-image: url("mg.gif");
+    background: #ddd url(mg.gif) no-repeat center center;
+    background-size: cover;
+}
+
+
+li {
+    list-style: none;
+    transition: 1s;
+    transform: scale(1);
+}
+
+.header {
+    background: linear-gradient(to bottom right, black, black);
+    color: #fff;
+    height: 300px;
+}
+
+
+.header-logo {
+    float: left;
+    font-size: 30px;
+    padding: 2.4% 3%;
+}
+
+.header-list li {
+    float: left;
+    padding: 33px 2%;
+}
+
+.main {
+    padding: 5% 3%;
+}
+
+.copy-container h1 {
+    font-size: 1500%;
+
+}
+
+.copy-container h2 {
+    font-size: 400%;
+}
+
+.copy-container h3 {
+    font-size: 200%;
+}
+
+.copy-container h5 {
+    font-size: 150%;
+}
+
+
+
+.footer {
+    background: linear-gradient(to bottom right, black, black);
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
+
+.main {
+    color: #ffffff;
+}
+
+.copy-container {
+    width: 50vw;
+    height: 50vh;
+    font-size: 1vw;
+    margin-top: 100px;
+}
+
+.zoom-in {
+
+    transition: 2s;
+}
+
+
+.zoom-in h3 {
+
+    opacity: 0;
+    transition: 1s;
+}
+
+.zoom-in h5 {
+
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.zoom-in:hover {
+    transform: scale(0.6);
+    opacity: 100%;
+
+}
+
+.zoom-in:hover h3 {
+
+    opacity: 1;
+    transition: 1s;
+}
+
+.zoom-in:hover h5 {
+
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.zoom-out:hover {
+    transform: scale(1);
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 150%;
+
+}
+
+li:hover {
+    transition: 1s;
+    transform: scale(1.3);
+
+}
+
+.tw:hover {
+    background: -webkit-linear-gradient(0deg, #00acee, #000080);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.studio:hover {
+    background: -webkit-linear-gradient(0deg, #ff1493, #ff4500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
